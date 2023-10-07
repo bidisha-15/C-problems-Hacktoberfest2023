@@ -10,7 +10,7 @@ int linearSearch(int arr[], int n, int key) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {45, 78, 99, 3, 6, 8};
     int n = sizeof(arr) / sizeof(arr[0]);
     int key = 3;
     int result = linearSearch(arr, n, key);
