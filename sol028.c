@@ -6,7 +6,7 @@ int main()
  float degree,radian;
 const float PI=3.14159;
 
- printf("\n Enter angle in degree:");
+ printf("\nEnter angle in degree:");
  scanf("%f",&degree);
 
  radian= degree *(PI/180.0);
